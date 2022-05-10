@@ -6,7 +6,7 @@ import 'cypress-file-upload'
 
 
 describe('Reto Hooks', ()=>{
-        let tiempo=1000
+        let tiempo=2000
 beforeEach(()=>{
         cy.visit('https://opensource-demo.orangehrmlive.com/')
         cy.title('').should('eq','OrangeHRM')
@@ -15,7 +15,7 @@ beforeEach(()=>{
         cy.wait(tiempo)
         cy.get('#txtPassword').should('be.visible').type('admin123')
         cy.wait(tiempo)
-        cy.get('#btnLogin').should('be.visible').type('texto')
+        cy.get('#btnLogin').should('be.visible').click()
         cy.wait(tiempo)
         })
         after(() => {

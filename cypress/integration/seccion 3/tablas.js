@@ -91,7 +91,7 @@ describe("Elementos de una tabla", ()=>{
          
         
    })
-      it.only("selecionar valor de iun campo en especifico",()=>{
+      it("selecionar valor de iun campo en especifico",()=>{
          cy.visit("https://mdbootstrap.com/docs/b4/jquery/tables/basic/") 
          
          const campo=cy.get("#striped-rows > section.section-no-border > section > div > table > tbody > tr:nth-child(1) > td:nth-child(2)")

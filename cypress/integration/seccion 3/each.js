@@ -26,7 +26,7 @@ describe("Blucles For y each", ()=>{
    })
    it("each dos",()=>{
      
-    cy.visit("http://automationpractice.com/index.php")
+    cy.visit("http://automationpractice.com")
     cy.get(".product-name").each(($el,index,$list)=>{
     cy.wait(2000)
     let vestido=$el.text()
@@ -35,9 +35,9 @@ describe("Blucles For y each", ()=>{
      }
     })
    })
-   it.only("reto each",()=>{
+   it("reto each",()=>{
      
-    cy.visit("http://automationpractice.com/index.php")
+    cy.visit("http://automationpractice.com")
       //for (  index=0; index==1;i++){
         /*if(index==1){
           cy.xpath("(//span[contains(.,'More')])[1]").click()  

@@ -7,7 +7,7 @@ describe("Referencias a windows", ()=>{
        cy.wait(1500)
        cy.document().should("have.a.property","charset").and('eq','UTF-8')
     })
-    it.only("windows URL ",()=>{
+    it("windows URL ",()=>{
       cy.visit("https://testsheepnz.github.io/random-number.html") 
       cy.title().should('eq','The Number Game')
       cy.wait(1500)

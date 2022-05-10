@@ -3,7 +3,7 @@
  require('cypress-plugin-tab')
  require('cypress-xpath')
 describe(" campos de tipo fecha", ()=>{
-    it.only("Fecha uno",()=>{
+    it("Fecha uno",()=>{
        cy.visit("https://testingqarvn.com.es/calendarios/") 
        cy.get("#wsf-1-field-78").should("be.visible").type("03/04/2022").then(()=>{
          // cy.get("#wsf-1-field-78").type('{esc}')

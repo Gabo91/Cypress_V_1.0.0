@@ -9,7 +9,7 @@ describe("Nueva seccion Checbox", ()=>{
        cy.get("[type='checkbox']").uncheck({force: true}).should("not.be.checked")
     })
     
-    it.only(" check solo 1",()=>{
+    it(" check solo 1",()=>{
       cy.visit("https://testingqarvn.com.es/prueba-de-campos-checkbox/") 
       cy.title("Prueba de campos Checkbox | TestingQaRvn").should('eq','Prueba de campos Checkbox | TestingQaRvn')
       

@@ -9,7 +9,7 @@ describe("Upload Imagenes", ()=>{
        cy.wait(1500)
        const ruta='img1.jpg'
        //const doc='doc1.pdf'
-       cy.xpath("[type='file']").attachFile(ruta)
+       cy.get("[type='file']").attachFile(ruta)
        cy.wait(2000)
     })
     Cypress.on('uncaught:exception', (err, runnable) => {

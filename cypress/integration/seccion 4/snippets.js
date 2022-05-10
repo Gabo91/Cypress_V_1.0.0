@@ -7,4 +7,9 @@ describe("Configuracion y uso de los snippets", ()=>{
          cy.title("").should('eq','ToolsQA')
          cy.wait(tiempo) 
       })
+      Cypress.on('uncaught:exception', (err, runnable) => {
+         // returning false here prevents Cypress from
+         // failing the test
+         return false
+       })
     })//cierre de describe

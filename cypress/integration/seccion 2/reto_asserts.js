@@ -48,7 +48,7 @@ describe("reto seuma", ()=>{
                })  
       
       })
-      it.only("Asert invoke",()=>{
+      it("Asert invoke",()=>{
          let tiempo=1500
          cy.visit("https://testsheepnz.github.io/BasicCalculator.html") 
          cy.wait(tiempo)

@@ -124,7 +124,7 @@ describe("Asserts", ()=>{
       cy.xpath("#dtBasicExample").should("have.css","padding","30px")
       //cy.xpath("//th[contains(@class,'asc')] >tr").should("have.length",5).and("have.css","padding",".75rem")
    })
-   it.only("asserts contains por inicio",()=>{
+   it("asserts contains por inicio",()=>{
       let tiempo=1500
       cy.visit("https://testingqarvn.com.es/contacto-2/") 
       cy.wait(tiempo)

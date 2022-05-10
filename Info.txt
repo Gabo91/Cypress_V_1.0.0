@@ -1,0 +1,23 @@
+Bienvedidos al curso Cypress
+1.-npm init
+
+2.- npm install cypress --save-dev ---- instalacion
+2.1.-Npx intalacion:
+2.2.- npm install -g npx
+2.3.-npm cypress --force --> en caso de que no se pueda instalar
+
+3.- node_modules\.bin\cypress open -----------abrir por npm
+4.- npx cypress open ---- para abrir directamente por npx 
+5.- para consola control + c
+comandos
+npx cypress run //ejecutar por consola
+npx cypress run --headed // correr desde navegador
+npx cypress run --browser chrome //ejecutar en todos los navegadores
+npx cypress run --spec "cypress\integration\seccion 1\Hola_mundo.js" // solo un test
+npx cypress run --spec "cypress\integration\seccion 1\*" // todos de una seccion
+video 104 permite cargar documentos.
+npm install --save-dev cypress-file-upload// carga la opcion de cargar documentos
+import 'cypress-file-upload'
+sacar grabacion desde cypress
+// npx cypress run --spec "cypress\integration\seccion 1\Hola_mundo.js" se ejecua el video
+npx cypress run --browser chrome --spec "cypress\integration\Seccion 6\page_Object_1.js"

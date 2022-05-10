@@ -1,0 +1,7 @@
+[
+    {"nombre":"rodrigo","email":"hello@cypress.io","dir1":"Direccion uno","dir2":"Direccion dos"},
+    {"nombre":"rodrigo1","email":"hello1@cypress.io","dir1":"Direccion1 uno","dir2":"Direccion1 dos"},
+    {"nombre":"rodrigo2","email":"hello2@cypress.io","dir1":"Direccion2 uno","dir2":"Direccion2 dos"},
+    {"nombre":"rodrigo3","email":"hello3@cypress.io","dir1":"Direccion3 uno","dir2":"Direccion3 dos"},
+    {"nombre":"rodrigo4","email":"hello4@cypress.io","dir1":"Direccion4 uno","dir2":"Direccion4 dos"}
+]
